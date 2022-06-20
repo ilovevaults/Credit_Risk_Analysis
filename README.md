@@ -20,7 +20,9 @@ This is used when there is enough data that can be used
 ## Summary
 ### Random Oversampling
 Accuracy Score: 67%
+
 High-Risk Precision:1%      High-Risk Recall:68%
+
 Low-Risk Precision:100%     Low-Risk Recall:66%
 ### SMOTE Oversampling
 Accuracy Score: 68%
