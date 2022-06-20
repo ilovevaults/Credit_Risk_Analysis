@@ -20,26 +20,27 @@ This is used when there is enough data that can be used
 ## Summary
 ### Random Oversampling
 Accuracy Score: 67%
-High-Risk Precision:1%   High-Risk Recall:68%
+High-Risk Precision:1%      High-Risk Recall:68%
 Low-Risk Precision:100%     Low-Risk Recall:66%
 ### SMOTE Oversampling
 Accuracy Score: 68%
-High-Risk Precision:1%   High-Risk Recall:68%
+High-Risk Precision:1%       High-Risk Recall:68%
 Low-Risk Precision:100%     Low-Risk Recall:69%
 ### Undersampling
 Accuracy Score: 52%
-High-Risk Precision:1%   High-Risk Recall:61%
+High-Risk Precision:1%      High-Risk Recall:61%
 Low-Risk Precision:100%     Low-Risk Recall:43%
 ### Combination(Oversampling and Undersampling)
 Accuracy Score: 68%
-High-Risk Precision:1%   High-Risk Recall:78%
-Low-Risk Precision:100%     Low-Risk Recall:58%
+High-Risk Precision:1%        High-Risk Recall:78%
+Low-Risk Precision:100%       Low-Risk Recall:58%
 ### Balanced Random Forrest Classifier
 Accuracy Score: 67%
-High-Risk Precision:1%   High-Risk Recall:34%
-Low-Risk Precision:100%     Low-Risk Recall:100%
+High-Risk Precision:1%       High-Risk Recall:34%
+Low-Risk Precision:100%       Low-Risk Recall:100%
 ### Easy Ensemble AdaBoost Classifier
 Accuracy Score: 92%
-High-Risk Precision:6%  High-Risk Recall:91%
+High-Risk Precision:6%      High-Risk Recall:91%
 Low-Risk Precision:100%     Low-Risk Recall:91%
+
 Based on all of these results the Easy Ensemble Adaboost Classifier seems to be the ideal model to used because it has the highest percentage in each category compared to the other models. 
